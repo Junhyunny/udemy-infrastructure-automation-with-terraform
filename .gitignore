@@ -2,3 +2,5 @@
 .terraform.lock.hcl
 terraform.tfstate
 terraform.tfstate.*
+terraform.tfvars
+secret-key.sh
