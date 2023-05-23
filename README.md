@@ -5,5 +5,3 @@
     * 이론
 * examples 
     * 예제 코드
-* terraform-course
-    * 강의 예제 
