@@ -4,3 +4,4 @@ terraform.tfstate
 terraform.tfstate.*
 terraform.tfvars
 secret-key.sh
+terraform-course
