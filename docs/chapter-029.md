@@ -6,7 +6,7 @@
     * Still, every new release there are new features coming out ot make it easier to handle your resources
 
 | command | desription |
-|:-:|:-:|
+|:-:|:-|
 | terraform apply | applies state |
 | terraform destroy | destroys all terraform managed state | 
 | terraform fmt | rewrite terraform configuration files to a canonical format and style | 
