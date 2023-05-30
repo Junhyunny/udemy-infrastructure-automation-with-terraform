@@ -1,7 +1,7 @@
 # data source to retrieve windows AMI
 data "aws_ami" "windows-ami" {
-  most_recent      = true
-  owners           = ["amazon"]
+  most_recent = true
+  owners      = ["amazon"]
 
   filter {
     name   = "name"
@@ -18,5 +18,3 @@ data "aws_ami" "windows-ami" {
     values = ["x86_64"]
   }
 }
-
-

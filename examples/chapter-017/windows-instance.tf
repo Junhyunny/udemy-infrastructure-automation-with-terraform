@@ -27,16 +27,15 @@ net start winrm
 </powershell>
 EOF
 
-
   provisioner "file" {
-    source = "test.txt"
+    source      = "test.txt"
     destination = "C:/test.txt"
   }
   connection {
-    host = coalesce(self.public_ip, self.private_ip)
-    type = "winrm"
-    timeout = "10m"
-    user = var.INSTANCE_USERNAME
+    host     = coalesce(self.public_ip, self.private_ip)
+    type     = "winrm"
+    timeout  = "10m"
+    user     = var.INSTANCE_USERNAME
     password = var.INSTANCE_PASSWORD
   }
 }

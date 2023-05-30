@@ -1,7 +1,7 @@
 provider "aws" {
   access_key = "AWS_ACCESS_KEY"
   secret_key = "AWS_SECRET_KEY"
-  token = "AWS_SESSION_TOKEN"
+  token      = "AWS_SESSION_TOKEN"
   region     = "us-east-1"
 }
 
